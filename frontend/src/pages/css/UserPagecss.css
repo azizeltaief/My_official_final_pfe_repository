@@ -1,0 +1,38 @@
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #f0f0f0;
+}
+
+/*.user-box {
+  margin: 16px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}*/
+.user-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 190px;
+  height: 190px;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 10px;
+  color: rgb(49, 49, 54); /* Change the color to your desired color */
+  border-bottom: 2px solid rgb(49, 49, 54); /* Add a border between text and image */
+  padding-top: 10px; /* Add padding to the top of the text */
+}
+

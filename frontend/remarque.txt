@@ -1,0 +1,2 @@
+//i have changed the start property of scripts in package.json file in frontend "react-scripts start",
+//i have changed  .. build                     ..                  ..           "react-scripts build"
